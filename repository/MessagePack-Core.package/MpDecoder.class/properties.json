@@ -1,0 +1,16 @@
+{
+	"category" : "MessagePack-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"readStream",
+		"typeMapper",
+		"settings" ],
+	"name" : "MpDecoder",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"defineArrayActionTo:" : "mu 4/29/2011 23:25",
+		"defineCompoundsActionsTo:" : "mu 4/29/2011 22:38",
+		"defineDoubleActionTo:" : "mu 4/29/2011 23:11",
+		"defineFalseActionTo:" : "mu 4/29/2011 15:15",
+		"defineFloatActionTo:" : "mu 4/29/2011 23:12",
+		"defineIntegerActionTo:" : "mu 4/29/2011 15:15",
+		"defineMapActionTo:" : "mu 4/29/2011 23:29",
+		"defineNilActionTo:" : "mu 4/29/2011 15:15",
+		"definePrimitivesActionsTo:" : "mu 4/29/2011 22:07",
+		"defineRawBytesActionTo:" : "mu 4/29/2011 22:01",
+		"defineTrueActionTo:" : "mu 4/29/2011 15:15",
+		"on:" : "mu 10/10/2011 17:27" },
+	"instance" : {
+		"encoder" : "mu 4/29/2011 15:15",
+		"encoder:" : "mu 4/29/2011 15:15",
+		"stringAsBytes" : "mu 5/2/2012 12:19",
+		"writeObject:ifNotApplied:" : "mu 10/10/2011 16:38" } }

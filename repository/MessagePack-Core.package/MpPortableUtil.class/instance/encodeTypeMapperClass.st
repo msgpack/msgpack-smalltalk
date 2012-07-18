@@ -1,0 +1,3 @@
+factory
+encodeTypeMapperClass
+	^MpEncodeTypeMapper

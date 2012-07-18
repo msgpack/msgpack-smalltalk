@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"bootstrapPackage:from:" : "mu 6/2/2011 15:05",
+		"compareVersions" : "mu 6/2/2011 15:05",
+		"createNewDevelopmentVersion" : "mu 6/2/2011 15:05",
+		"ensureMetacello" : "mu 6/2/2011 15:05",
+		"isMetacelloConfig" : "mu 6/2/2011 15:05",
+		"lastMetacelloVersionLoad" : "mu 6/2/2011 15:05",
+		"load" : "mu 6/2/2011 15:05",
+		"metacelloVersion:loads:" : "mu 6/2/2011 15:05",
+		"project" : "mu 6/2/2011 15:05",
+		"updateToLatestPackageVersions:" : "mu 6/2/2011 15:05" },
+	"instance" : {
+		"baseline100:" : "mu 6/2/2011 15:47",
+		"baseline101:" : "dkh 8/26/2011 03:32",
+		"development:" : "mu 6/2/2011 15:05",
+		"project" : "mu 6/2/2011 15:05",
+		"stable:" : "mu 5/2/2012 13:00",
+		"version100:" : "mu 6/2/2011 17:47",
+		"version101:" : "mu 11/23/2011 22:44",
+		"version102:" : "mu 11/23/2011 22:44",
+		"version103:" : "mu 11/23/2011 22:58",
+		"version104:" : "mu 5/2/2012 13:02" } }

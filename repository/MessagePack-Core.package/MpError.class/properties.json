@@ -1,0 +1,14 @@
+{
+	"category" : "MessagePack-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"type" ],
+	"name" : "MpError",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }

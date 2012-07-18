@@ -1,0 +1,14 @@
+{
+	"category" : "MessagePack-Squeak-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MpSqEncodeTypeMapper",
+	"pools" : [
+		 ],
+	"super" : "MpEncodeTypeMapper",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+accessing
+typeMapperClass
+	^MpPortableUtil default encodeTypeMapperClass

@@ -1,0 +1,15 @@
+{
+	"category" : "MessagePack-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Default",
+		"DialectSpecificClass" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MpPortableUtil",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

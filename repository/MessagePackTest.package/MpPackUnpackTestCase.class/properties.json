@@ -1,0 +1,14 @@
+{
+	"category" : "MessagePackTest-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MpPackUnpackTestCase",
+	"pools" : [
+		 ],
+	"super" : "MpTestCase",
+	"type" : "normal" }
