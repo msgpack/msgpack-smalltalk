@@ -1,7 +1,9 @@
 {
 	"class" : {
 		"decode:" : "mu 4/29/2011 23:40",
+		"decode:setting:" : "MasashiUmezawa 2/1/2013 23:14",
 		"decodeFrom:" : "mu 4/29/2011 23:40",
+		"decodeFrom:setting:" : "MasashiUmezawa 2/1/2013 23:14",
 		"on:" : "mu 5/15/2011 00:40",
 		"onBytes:" : "mu 4/29/2011 23:40" },
 	"instance" : {
@@ -11,7 +13,9 @@
 		"createOrderedCollection:" : "mu 4/29/2011 23:40",
 		"decode" : "mu 5/2/2011 14:15",
 		"decode:" : "mu 4/29/2011 23:40",
+		"decode:setting:" : "MasashiUmezawa 2/1/2013 23:13",
 		"decodeFrom:" : "mu 4/29/2011 23:40",
+		"decodeFrom:setting:" : "MasashiUmezawa 2/1/2013 23:13",
 		"next" : "mu 6/7/2011 17:54",
 		"read" : "mu 4/30/2011 23:43",
 		"readArray16" : "mu 4/30/2011 23:45",
@@ -21,7 +25,8 @@
 		"readFalse" : "mu 4/30/2011 23:15",
 		"readFixArray:" : "mu 6/7/2011 21:00",
 		"readFixMap:" : "mu 6/7/2011 21:00",
-		"readFixRaw:" : "mu 6/7/2011 21:00",
+		"readFixRaw:" : "MasashiUmezawa 2/2/2013 01:10",
+		"readFixString:" : "MasashiUmezawa 2/2/2013 00:55",
 		"readFloat" : "mu 6/2/2011 12:24",
 		"readInt16" : "mu 5/1/2011 16:06",
 		"readInt32" : "mu 5/1/2011 16:06",
@@ -40,6 +45,8 @@
 		"readRaw32" : "mu 5/1/2011 22:46",
 		"readStream" : "mu 4/29/2011 23:40",
 		"readStream:" : "mu 4/29/2011 23:40",
+		"readString16" : "MasashiUmezawa 2/2/2013 01:02",
+		"readString32" : "MasashiUmezawa 2/2/2013 01:02",
 		"readTrue" : "mu 4/30/2011 23:16",
 		"readType" : "mu 4/30/2011 23:33",
 		"readUint16" : "mu 4/30/2011 23:31",
@@ -50,5 +57,5 @@
 		"settingsClass" : "mu 6/2/2011 17:41",
 		"signalError" : "mu 5/2/2011 14:15",
 		"signalError:" : "mu 5/2/2011 14:15",
-		"typeMapper" : "mu 4/29/2011 23:40",
+		"typeMapper" : "MasashiUmezawa 2/2/2013 00:57",
 		"typeMapperClass" : "mu 4/29/2011 23:42" } }

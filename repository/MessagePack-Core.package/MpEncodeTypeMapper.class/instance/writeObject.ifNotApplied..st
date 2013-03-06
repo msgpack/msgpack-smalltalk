@@ -6,5 +6,7 @@ writeObject: anObject ifNotApplied: aBlock
 			actionSelector ifNotNil: [^ self encoder perform: actionSelector with: anObject]].
 		
 	actionSelector := anObject mpWriteSelector.
-	actionSelector ifNil: [actionSelector := self defaultActionMap at: anObject class ifAbsent: [^ aBlock value]].
+	actionSelector ifNil: [
+		actionSelector := self defaultActionMap at: anObject class ifAbsent: [^ self encoder writeUnknown: anObject withHandler: aBlock ]
+	].
 	^ self encoder perform: actionSelector with: anObject

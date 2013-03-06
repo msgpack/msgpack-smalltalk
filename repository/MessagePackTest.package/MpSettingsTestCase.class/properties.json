@@ -1,15 +1,14 @@
 {
-	"category" : "MessagePack-Core",
+	"category" : "MessagePackTest-Core",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"decoder",
-		"isBytesAsString" ],
-	"name" : "MpDecodeTypeMapper",
+		 ],
+	"name" : "MpSettingsTestCase",
 	"pools" : [
 		 ],
-	"super" : "MpTypeMapper",
+	"super" : "MpTestCase",
 	"type" : "normal" }
