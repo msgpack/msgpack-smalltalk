@@ -2,6 +2,8 @@
 	"class" : {
 		"encode:" : "mu 4/29/2011 15:07",
 		"encode:on:" : "mu 4/29/2011 15:07",
+		"encode:on:setting:" : "MasashiUmezawa 2/1/2013 22:31",
+		"encode:setting:" : "MasashiUmezawa 2/1/2013 22:33",
 		"on:" : "mu 4/29/2011 15:07",
 		"onBytes:" : "mu 4/29/2011 15:07" },
 	"instance" : {
@@ -9,6 +11,8 @@
 		"createWriteStream" : "mu 10/29/2011 23:25",
 		"encode:" : "mu 4/29/2011 15:07",
 		"encode:on:" : "mu 4/29/2011 15:07",
+		"encode:on:setting:" : "MasashiUmezawa 2/1/2013 22:30",
+		"encode:setting:" : "MasashiUmezawa 2/1/2013 22:34",
 		"nextPut:" : "mu 6/7/2011 17:50",
 		"nextPutAll:" : "mu 6/7/2011 17:56",
 		"settings" : "mu 4/29/2011 15:07",
@@ -45,4 +49,5 @@
 		"writeUint32:" : "mu 4/29/2011 15:39",
 		"writeUint64:" : "mu 4/29/2011 15:49",
 		"writeUint8:" : "mu 4/29/2011 15:38",
+		"writeUnknown:withHandler:" : "MasashiUmezawa 2/2/2013 00:37",
 		"writeWideString:" : "mu 5/2/2012 12:34" } }
