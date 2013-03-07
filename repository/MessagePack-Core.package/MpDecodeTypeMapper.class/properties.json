@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"decoder" ],
+		"decoder",
+		"isBytesAsString" ],
 	"name" : "MpDecodeTypeMapper",
 	"pools" : [
 		 ],
