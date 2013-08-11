@@ -2,7 +2,8 @@ decode customization
 bytesAsString
 	| map |
 	map := self actionMap.
-	map at: MpConstants map16 put: #readString16.
-	map at: MpConstants map32 put: #readString32.
+	map at: MpConstants str8 put: #readString8.
+	map at: MpConstants str16 put: #readString16.
+	map at: MpConstants str16 put: #readString32.
 	
 	self isBytesAsString: true

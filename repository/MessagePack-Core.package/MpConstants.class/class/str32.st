@@ -1,3 +1,3 @@
 typecodes
-raw32
+str32
 	^16rDB

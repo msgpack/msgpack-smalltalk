@@ -7,5 +7,6 @@ definePrimitivesActionsTo: map
 	self defineDoubleActionTo: map.
 	self defineUnsignedIntegerActionTo: map.
 	self defineIntegerActionTo: map.
-	self defineRawBytesActionTo: map.
+	self defineBinBytesActionTo: map.
+	self defineStrBytesActionTo: map.
 	
