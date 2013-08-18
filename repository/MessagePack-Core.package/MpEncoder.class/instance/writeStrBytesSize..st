@@ -1,5 +1,5 @@
 writing-helper
-writeRawBytesSize: size
+writeStrBytesSize: size
 	size < 16r10 ifTrue: [^ self writeStream nextPut: (2r10100000 bitOr: size)].
 	size < 16r10000  ifTrue: [
 		self writeStream nextPut: MpConstants str16.

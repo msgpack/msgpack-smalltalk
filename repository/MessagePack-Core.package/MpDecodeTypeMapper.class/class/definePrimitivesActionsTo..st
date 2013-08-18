@@ -1,8 +1,8 @@
 actions for primitives
 definePrimitivesActionsTo: map
 	self defineNilActionTo: map.
-	self defineFalseActionTo: map.
 	self defineTrueActionTo: map.
+	self defineFalseActionTo: map.
 	self defineFloatActionTo: map.
 	self defineDoubleActionTo: map.
 	self defineUnsignedIntegerActionTo: map.
