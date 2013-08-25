@@ -1,3 +1,5 @@
 reading-string
 readString8
-	^self readStr8 "String is ensured"
+	| size |
+	size := self readStream next.
+	^(self readStream next: size) asString

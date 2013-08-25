@@ -1,3 +1,5 @@
 reading-string
 readString32
-	^self readStr32 asString
+	| size |
+	size := MpPortableUtil default readUint32From: self readStream.
+	^(self readStream next: size) asString

@@ -15,6 +15,7 @@
 		"defineUnsignedIntegerActionTo:" : "mu 4/30/2011 22:46",
 		"on:" : "mu 11/20/2011 16:50" },
 	"instance" : {
+		"bytesAsRaw" : "mu 8/26/2013 00:20",
 		"bytesAsString" : "mu 8/12/2013 00:12",
 		"decoder" : "mu 4/29/2011 23:40",
 		"decoder:" : "mu 4/29/2011 23:40",

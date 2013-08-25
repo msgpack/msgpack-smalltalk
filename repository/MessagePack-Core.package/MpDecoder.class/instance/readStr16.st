@@ -1,3 +1,3 @@
 reading
 readStr16
-	^self readBin16
+	^self readString16

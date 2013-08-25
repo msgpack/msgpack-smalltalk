@@ -1,4 +1,6 @@
 reading
 readRaw32
 	"Obsolete"
-	^self readStr32
+	| size |
+	size := MpPortableUtil default readUint32From: self readStream.
+	^self readStream next: size

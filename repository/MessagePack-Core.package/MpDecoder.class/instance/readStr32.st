@@ -1,3 +1,3 @@
 reading
 readStr32
-	^self readBin32
+	^self readString32
