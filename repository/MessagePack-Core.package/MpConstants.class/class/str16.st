@@ -1,3 +1,3 @@
 typecodes
-raw16
+str16
 	^16rDA
