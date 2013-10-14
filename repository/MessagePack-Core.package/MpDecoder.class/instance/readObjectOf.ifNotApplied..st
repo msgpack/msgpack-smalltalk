@@ -6,7 +6,7 @@ readObjectOf: type ifNotApplied: aBlock
 		fixMapOrArray := type bitShift: -4.
 		fixMapOrArray = 2r1000 ifTrue: [^ self readFixMap: type].
 		fixMapOrArray = 2r1001 ifTrue: [^ self readFixArray: type].
-		^ self readFixRaw: type.
+		^ self readFixStr: type.
 	].
 	(type bitShift: -5) = 2r111 ifTrue: [^ self readNegativeFixNum: type].
 	^self typeMapper readObjectOf: type ifNotApplied: aBlock

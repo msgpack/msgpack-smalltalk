@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'MessagePack-Squeak-Core'!
+SystemOrganization addCategory: #'MessagePack-Squeak-Core'!

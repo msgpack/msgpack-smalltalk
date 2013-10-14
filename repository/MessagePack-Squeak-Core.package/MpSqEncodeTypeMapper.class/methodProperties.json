@@ -1,5 +1,7 @@
 {
 	"class" : {
-		"defineDoubleActionTo:" : "mu 4/29/2011 23:13" },
+		"defineDoubleActionTo:" : "mu 4/29/2011 23:13",
+		"defineStrBytesActionTo:" : "mu 8/19/2013 01:24" },
 	"instance" : {
-		"stringAsBytes" : "mu 5/2/2012 12:55" } }
+		"stringAsBytes" : "mu 5/2/2012 12:55",
+		"stringAsError" : "mu 8/19/2013 01:34" } }

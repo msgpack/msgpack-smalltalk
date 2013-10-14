@@ -1,3 +1,5 @@
 reading-string
 readString16
-	^self readRaw16 asString
+	| size |
+	size := MpPortableUtil default readUint16From: self readStream.
+	^(self readStream next: size) asString

@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'MessagePackTest-Core'!
+SystemOrganization addCategory: #'MessagePackTest-Core'!
