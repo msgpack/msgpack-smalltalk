@@ -1,0 +1,15 @@
+{
+	"category" : "MessagePack-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"typeCode",
+		"data" ],
+	"name" : "MpExtValue",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

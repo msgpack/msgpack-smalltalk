@@ -1,0 +1,14 @@
+{
+	"category" : "MessagePack-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MpFixextValue",
+	"pools" : [
+		 ],
+	"super" : "MpExtValue",
+	"type" : "normal" }
