@@ -9,6 +9,7 @@ MessagePack serialization library for various Smalltalk dialects.
 - VA Smalltalk
 - Dolphin Smalltalk
 - GNU Smalltalk (Beta)
+- [Cuis](https://github.com/mumez/Cuis-Smalltalk-MessagePack)
 
 Sources are put as [Cypress](https://github.com/CampSmalltalk/Cypress/blob/master/README.md) for the neutral accesses from various Smalltalk dialects.
 
