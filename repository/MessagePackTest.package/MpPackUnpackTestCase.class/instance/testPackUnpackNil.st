@@ -4,7 +4,7 @@ testPackUnpackNil
 	| packed unpacked |
 	packed := nil messagePacked.
 	self should: [packed isMemberOf: ByteArray].
-	self should: [packed = (ByteArray with: MpConstants nil)].
+	self should: [packed = (ByteArray with: MpConstants undefinedNil)].
 	unpacked := Object fromMessagePack: packed.
 	self should: [unpacked = nil]
 	

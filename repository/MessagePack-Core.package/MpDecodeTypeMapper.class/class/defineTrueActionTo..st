@@ -1,3 +1,3 @@
 actions for primitives
 defineTrueActionTo: map
-	map at: MpConstants true put: #readTrue
+	map at: MpConstants boolTrue put: #readTrue
