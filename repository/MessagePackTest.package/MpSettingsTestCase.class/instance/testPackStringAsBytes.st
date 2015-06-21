@@ -2,10 +2,12 @@ testing
 testPackStringAsBytes
 	"self debug: #testPackStringAsBytes"
 	| bytes |
-	self should: [self simpleString messagePacked] raise: MpError.
+	self should: [self simpleString messagePacked:[:se | se legacyFormat]] raise: MpError.
 	
-	bytes := self simpleString messagePacked: [:settings | settings stringAsBytes: true].
+	bytes := self simpleString messagePacked: [:settings | settings legacyFormat; stringAsBytes: true].
 	
-	self assert: (bytes = (MpPortableUtil default bytesFromString: self simpleString) messagePacked)
+	self assert: (bytes = (self simpleString asByteArray messagePacked:[:se | se legacyFormat])).
+	
+	self deny: (bytes = (self simpleString asByteArray messagePacked))
 			
 		

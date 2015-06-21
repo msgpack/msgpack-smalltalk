@@ -2,10 +2,13 @@ testing
 testPackStringArrayAsArrayOfBytes
 	"self debug: #testPackStringArrayAsArrayOfBytes"
 	| bytes |
-	self should: [self simpleStringContainedArray messagePacked] raise: MpError.
+	self should: [self simpleStringContainedArray messagePacked: [:settings | settings legacyFormat]] raise: MpError.
 	
-	bytes := self simpleStringContainedArray messagePacked: [:settings | settings stringAsBytes: true].
+	bytes := self simpleStringContainedArray messagePacked: [:settings | settings 
+				legacyFormat;
+				stringAsBytes: true].
 	
-	self assert: (bytes = (self simpleStringContainedArray collect: [:each | (MpPortableUtil default bytesFromString: each)]) messagePacked)
+	self assert: (bytes = ((self simpleStringContainedArray 	collect: [:each | each asByteArray]) 
+									messagePacked: [:settings | settings legacyFormat]))
 			
 		
