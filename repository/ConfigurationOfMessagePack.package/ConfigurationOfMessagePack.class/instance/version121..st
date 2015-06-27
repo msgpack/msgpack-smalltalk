@@ -3,7 +3,7 @@ version121: spec
 	<version: '1.2.1' imports: #('1.2.0-baseline') >
 	
 	spec for: #common do: [
-		spec blessing: #beta.
+		spec blessing: #development.
 		spec author: 'Masashi Umezawa'.
 		spec 
 			package: 'MessagePack-Core' with: 'MessagePack-Core-MasashiUmezawa.33';
