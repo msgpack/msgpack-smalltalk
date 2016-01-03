@@ -2,4 +2,5 @@ loading
 load
 	"self load"
 
-	^self project latestVersion load
+	<apiDocumentation>
+	^(self project version: #stable) load
