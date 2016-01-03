@@ -1,3 +1,3 @@
 writing
 writeNil: ignore
-	self writeStream nextPut: MpConstants nil
+	self writeStream nextPut: MpConstants undefinedNil

@@ -63,3 +63,27 @@ decoder := MpDecoder on: readStream.
 We are moving from [Google Code site](http://code.google.com/p/messagepack-st/). Old contents including installation guide are still there.
 
 
+
+
+### Loading the latest development version
+
+#### Squeak
+```Smalltalk
+Installer squeaksource
+    project: 'MessagePack';
+    install: 'ConfigurationOfMessagePack'. 
+(Smalltalk at: #ConfigurationOfMessagePack) project development load
+```
+
+#### Pharo
+```Smalltalk
+Gofer it
+    smalltalkhubUser: 'MasashiUmezawa' project: 'MessagePack';
+    configuration;
+    load.
+(Smalltalk at: #ConfigurationOfMessagePack) project development load
+```
+
+You might need ```MpTypeMapper initializeAll ``` on new encoder/decoder-related updates.
+
+

@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #ConfigurationOfMessagePack!
+SystemOrganization addCategory: #ConfigurationOfMessagePack!

@@ -4,7 +4,7 @@ testPackUnpackFalse
 	| packed unpacked |
 	packed := false messagePacked.
 	self should: [packed isMemberOf: ByteArray].
-	self should: [packed = (ByteArray with: MpConstants false)].
+	self should: [packed = (ByteArray with: MpConstants boolFalse)].
 	unpacked := Object fromMessagePack: packed.
 	self should: [unpacked = false]
 	

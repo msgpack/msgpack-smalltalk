@@ -1,3 +1,3 @@
 typecodes
-nil
+undefinedNil
 	^16rC0

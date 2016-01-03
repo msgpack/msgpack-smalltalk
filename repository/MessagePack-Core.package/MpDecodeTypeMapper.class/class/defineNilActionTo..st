@@ -1,3 +1,3 @@
 actions for primitives
 defineNilActionTo: map
-	map at: MpConstants nil put: #readNil
+	map at: MpConstants undefinedNil put: #readNil

@@ -7,7 +7,7 @@ version100: spec
 		spec author: 'Masashi Umezawa'.
 		spec 
 			package: 'MessagePack-Core' with: 'MessagePack-Core-mu.4';
-			package: 'MessagePackTest-Core' with: 'MessagePackTest-mu.2' ].
+			package: 'MessagePackTest' with: 'MessagePackTest-mu.2' ].
 	spec for: #squeakCommon do: [
 		spec 
 			package: 'MessagePack-Squeak-Core' with: 'MessagePack-Squeak-Core-mu.1'].

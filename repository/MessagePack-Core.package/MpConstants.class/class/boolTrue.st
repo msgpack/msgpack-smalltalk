@@ -1,3 +1,3 @@
 typecodes
-true
+boolTrue
 	^16rC3
