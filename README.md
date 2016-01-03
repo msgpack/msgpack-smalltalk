@@ -58,12 +58,8 @@ decoder := MpDecoder on: readStream.
         Transcript cr; show: decoder next printString
 ]
 ```
-
-----------
-We are moving from [Google Code site](http://code.google.com/p/messagepack-st/). Old contents including installation guide are still there.
-
-
-
+### How to install
+Please read [HowToInstall.md](<https://github.com/msgpack/msgpack-smalltalk/blob/master/doc/HowToInstall.md>).
 
 ### Loading the latest development version
 
