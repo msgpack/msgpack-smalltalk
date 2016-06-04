@@ -7,7 +7,9 @@
 		"on:" : "mu 4/29/2011 15:07",
 		"onBytes:" : "mu 4/29/2011 15:07" },
 	"instance" : {
-		"buildTypeMapper:" : "mu 8/19/2013 01:31",
+		"buildTypeMapper:" : "MasashiUmezawa 6/4/2016 14:09",
+		"buildTypeMapperFor2008:" : "MasashiUmezawa 6/4/2016 14:07",
+		"buildTypeMapperFor2013:" : "MasashiUmezawa 6/4/2016 14:08",
 		"contents" : "mu 4/29/2011 15:07",
 		"createWriteStream" : "mu 10/29/2011 23:25",
 		"encode:" : "mu 4/29/2011 15:07",
