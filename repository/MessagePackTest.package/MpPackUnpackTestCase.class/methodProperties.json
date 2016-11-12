@@ -6,7 +6,7 @@
 		"complexCollectionSizes" : "mu 5/1/2011 23:44",
 		"complexMapsArray" : "mu 5/1/2011 23:56",
 		"createArraySized:" : "mu 6/23/2011 12:10",
-		"createByteStringSized:" : "mu 8/25/2013 23:44",
+		"createByteStringSized:" : "MasashiUmezawa 11/12/2016 23:44",
 		"createComplexArraySized:" : "mu 6/23/2011 12:11",
 		"createComplexMapSized:" : "mu 6/23/2011 12:11",
 		"createExtSized:" : "mu 12/8/2013 14:49",
@@ -36,7 +36,7 @@
 		"testPackUnpackInteger" : "mu 5/1/2011 21:33",
 		"testPackUnpackMap" : "mu 6/23/2011 12:44",
 		"testPackUnpackNil" : "MasashiUmezawa 5/18/2015 10:45",
-		"testPackUnpackRawBytes" : "mu 8/26/2013 00:09",
+		"testPackUnpackRawBytes" : "MasashiUmezawa 11/13/2016 00:05",
 		"testPackUnpackStrBytes" : "mu 8/25/2013 23:49",
 		"testPackUnpackSymbolBytes" : "MasashiUmezawa 6/4/2016 14:24",
 		"testPackUnpackTrue" : "MasashiUmezawa 5/18/2015 10:47" } }

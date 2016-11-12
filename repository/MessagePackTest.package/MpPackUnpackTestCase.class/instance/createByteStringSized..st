@@ -1,3 +1,3 @@
 private
 createByteStringSized: size
-	^ (self createRawBytesSized: size) asString
+	^self createStringSized: size

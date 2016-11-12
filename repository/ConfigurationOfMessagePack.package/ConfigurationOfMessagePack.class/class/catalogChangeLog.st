@@ -14,4 +14,8 @@ catalogChangeLog
 [[[
 (ConfigurationOfMessagePack project version: ''1.2.3'') load
 ]]]
+- Version 1.2.4
+[[[
+(ConfigurationOfMessagePack project version: ''1.2.4'') load
+]]]
 '

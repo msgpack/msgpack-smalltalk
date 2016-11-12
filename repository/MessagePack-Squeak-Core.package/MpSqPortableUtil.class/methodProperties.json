@@ -12,6 +12,7 @@
 		"readUint16From:" : "mu 4/29/2011 15:41",
 		"readUint32From:" : "mu 4/29/2011 15:41",
 		"readUint64From:" : "mu 4/29/2011 15:41",
+		"stringFromBytes:" : "MasashiUmezawa 11/12/2016 23:27",
 		"writeDouble:to:" : "mu 5/1/2011 15:53",
 		"writeFloat:to:" : "mu 5/1/2011 15:23",
 		"writeInt16:to:" : "mu 4/29/2011 15:51",

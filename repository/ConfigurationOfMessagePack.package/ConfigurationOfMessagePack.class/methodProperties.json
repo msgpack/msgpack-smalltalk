@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"bootstrapPackage:from:" : "mu 6/2/2011 15:05",
-		"catalogChangeLog" : "MasashiUmezawa 6/4/2016 14:26",
+		"catalogChangeLog" : "MasashiUmezawa 11/12/2016 23:31",
 		"catalogDescription" : "MasashiUmezawa 1/3/2016 13:00",
 		"catalogKeyClassesAndExample" : "MasashiUmezawa 1/3/2016 13:02",
 		"catalogKeywords" : "MasashiUmezawa 1/3/2016 13:03",
@@ -20,9 +20,9 @@
 		"baseline100:" : "MasashiUmezawa 6/27/2015 15:17",
 		"baseline101:" : "dkh 8/26/2011 03:32",
 		"baseline120:" : "mu 10/15/2013 00:46",
-		"development:" : "MasashiUmezawa 6/4/2016 14:29",
+		"development:" : "MasashiUmezawa 11/12/2016 23:31",
 		"project" : "mu 6/2/2011 15:05",
-		"stable:" : "MasashiUmezawa 6/4/2016 14:29",
+		"stable:" : "MasashiUmezawa 11/12/2016 23:31",
 		"version100:" : "MasashiUmezawa 6/27/2015 15:15",
 		"version101:" : "mu 11/23/2011 22:44",
 		"version102:" : "mu 11/23/2011 22:44",
@@ -31,4 +31,5 @@
 		"version120:" : "MasashiUmezawa 10/15/2013 01:09",
 		"version121:" : "MasashiUmezawa 6/27/2015 15:14",
 		"version122:" : "MU 12/19/2015 23:29",
-		"version123:" : "MasashiUmezawa 6/4/2016 14:28" } }
+		"version123:" : "MasashiUmezawa 6/4/2016 14:28",
+		"version124:" : "MasashiUmezawa 11/13/2016 00:07" } }
