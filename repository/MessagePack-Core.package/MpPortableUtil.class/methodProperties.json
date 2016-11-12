@@ -19,6 +19,7 @@
 		"readUint32From:" : "mu 4/29/2011 15:08",
 		"readUint64From:" : "mu 4/30/2011 23:35",
 		"signalException:" : "mu 5/2/2011 13:53",
+		"stringFromBytes:" : "MasashiUmezawa 11/12/2016 23:19",
 		"useFastBulkWrite" : "mu 10/29/2011 23:23",
 		"writeDouble:to:" : "mu 4/29/2011 16:16",
 		"writeFloat:to:" : "mu 4/29/2011 16:16",
