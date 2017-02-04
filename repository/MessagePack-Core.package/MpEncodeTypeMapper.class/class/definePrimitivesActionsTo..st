@@ -8,3 +8,6 @@ definePrimitivesActionsTo: map
 	self defineDoubleActionTo: map.
 	self defineBinBytesActionTo: map.
 	self defineStrBytesActionTo: map.
+	
+	self defineSymbolActionTo: map.
+	
