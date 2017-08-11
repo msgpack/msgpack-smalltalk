@@ -1,4 +1,6 @@
 actions for exts
 defineExtsActionsTo: map
 	map at: MpExtValue put: #writeExt:.
-	map at: MpFixextValue put: #writeFixext:
+	map at: MpFixextValue put: #writeFixext:.
+	
+	self defineTimestampActionTo: map

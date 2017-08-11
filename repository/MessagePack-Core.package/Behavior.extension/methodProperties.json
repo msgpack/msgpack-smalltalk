@@ -1,6 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
 		"fromMessagePack:" : "mu 5/1/2011 21:27",
-		"fromMessagePack:setting:" : "MasashiUmezawa 2/1/2013 23:14" } }
+		"fromMessagePack:setting:" : "MasashiUmezawa 2/1/2013 23:14"
+	},
+	"class" : { }
+}

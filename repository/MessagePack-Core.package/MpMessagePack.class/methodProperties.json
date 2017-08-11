@@ -1,7 +1,8 @@
 {
+	"instance" : { },
 	"class" : {
-		"pack:" : "mu 5/1/2011 15:44",
 		"packUnpack:" : "mu 5/1/2011 21:16",
-		"unpack:" : "mu 5/1/2011 15:44" },
-	"instance" : {
-		 } }
+		"pack:" : "mu 5/1/2011 15:44",
+		"unpack:" : "mu 5/1/2011 15:44"
+	}
+}
