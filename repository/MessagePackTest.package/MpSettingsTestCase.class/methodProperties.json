@@ -1,23 +1,24 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"arrayWithNil" : "MasashiUmezawa 2/2/2013 20:59",
-		"arrayWithUnknown" : "MasashiUmezawa 2/2/2013 20:58",
-		"complexDictionaryAfterConverted" : "MasashiUmezawa 2/2/2013 21:50",
-		"complexIdentityDictionary" : "MasashiUmezawa 2/2/2013 20:28",
-		"dictionaryWithNil" : "MasashiUmezawa 2/2/2013 21:01",
-		"dictionaryWithUnknown" : "MasashiUmezawa 2/2/2013 21:02",
-		"simpleIdentityDictionary" : "MasashiUmezawa 2/2/2013 20:19",
-		"simpleString" : "MasashiUmezawa 2/2/2013 20:47",
-		"simpleStringContainedArray" : "MasashiUmezawa 2/2/2013 21:16",
-		"stringSizes" : "MasashiUmezawa 2/2/2013 21:13",
-		"stringsArray" : "MasashiUmezawa 2/2/2013 21:17",
 		"testPackStringArrayAsArrayOfBytes" : "MasashiUmezawa 6/21/2015 16:32",
-		"testPackStringAsBytes" : "MasashiUmezawa 6/21/2015 16:26",
-		"testPackUnknownContainedArray" : "MasashiUmezawa 2/2/2013 21:03",
-		"testPackUnknownContainedDictionary" : "MasashiUmezawa 2/2/2013 21:07",
-		"testPackUnpackComplexIdentityDictionary" : "MasashiUmezawa 6/21/2015 20:30",
 		"testPackUnpackSimpleIdentityDictionary" : "MasashiUmezawa 6/21/2015 20:31",
+		"simpleIdentityDictionary" : "MasashiUmezawa 2/2/2013 20:19",
+		"dictionaryWithNil" : "MasashiUmezawa 2/2/2013 21:01",
+		"arrayWithUnknown" : "MasashiUmezawa 2/2/2013 20:58",
+		"complexIdentityDictionary" : "MasashiUmezawa 2/2/2013 20:28",
+		"stringSizes" : "MasashiUmezawa 2/2/2013 21:13",
+		"testPackStringAsBytes" : "MasashiUmezawa 6/21/2015 16:26",
+		"testPackUnknownContainedDictionary" : "MasashiUmezawa 2/2/2013 21:07",
 		"testPackUnpackStrings" : "MasashiUmezawa 2/2/2013 21:21",
-		"testUnpackBytesAsString" : "MasashiUmezawa 6/21/2015 16:29" } }
+		"testPackUnknownContainedArray" : "MasashiUmezawa 2/2/2013 21:03",
+		"simpleStringContainedArray" : "MasashiUmezawa 2/2/2013 21:16",
+		"testPackUnpackComplexIdentityDictionary" : "MasashiUmezawa 6/21/2015 20:30",
+		"stringsArray" : "MasashiUmezawa 2/2/2013 21:17",
+		"simpleString" : "MasashiUmezawa 2/2/2013 20:47",
+		"arrayWithNil" : "MasashiUmezawa 2/2/2013 20:59",
+		"dictionaryWithUnknown" : "MasashiUmezawa 2/2/2013 21:02",
+		"testUnpackBytesAsString" : "MasashiUmezawa 6/21/2015 16:29",
+		"complexDictionaryAfterConverted" : "MasashiUmezawa 2/2/2013 21:50"
+	},
+	"class" : { }
+}
