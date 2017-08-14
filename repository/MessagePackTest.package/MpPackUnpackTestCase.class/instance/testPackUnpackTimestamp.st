@@ -65,6 +65,13 @@ testPackUnpackTimestamp
 	self assert: secondsAndNanos first = -1.
 	self assert: secondsAndNanos last = 0.
 	
+	packed := (self unixEpochTimestamp - 1 nanoSeconds) messagePacked: [:settings | settings formatVersion: 2013].
+	self assert: packed size = 15.
+	unpacked := Object fromMessagePack: packed.
+	secondsAndNanos := MpPortableUtil default unixSecondsWithNanosecondsFrom: unpacked.
+	self assert: secondsAndNanos first = -1.
+	self assert: secondsAndNanos last = 999999999.
+	
 	packed := (self max96Timestamp) messagePacked: [:settings | settings formatVersion: 2013].
 	self assert: packed size = 15.
 	unpacked := Object fromMessagePack: packed.
