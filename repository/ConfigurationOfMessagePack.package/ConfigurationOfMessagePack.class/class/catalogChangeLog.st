@@ -22,4 +22,9 @@ catalogChangeLog
 [[[
 (ConfigurationOfMessagePack project version: ''1.2.5'') load
 ]]]
+- Version 1.2.9
+Timestamp(DateAndTime) supported.
+[[[
+(ConfigurationOfMessagePack project version: ''1.2.9'') load
+]]]
 '
