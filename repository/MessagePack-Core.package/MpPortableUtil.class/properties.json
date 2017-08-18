@@ -1,15 +1,14 @@
 {
+	"commentStamp" : "",
+	"super" : "Object",
 	"category" : "MessagePack-Core",
-	"classinstvars" : [
-		 ],
+	"classinstvars" : [ ],
+	"pools" : [ ],
 	"classvars" : [
 		"Default",
-		"DialectSpecificClass" ],
-	"commentStamp" : "",
-	"instvars" : [
-		 ],
+		"DialectSpecificClass"
+	],
+	"instvars" : [ ],
 	"name" : "MpPortableUtil",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

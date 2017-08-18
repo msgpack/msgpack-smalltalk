@@ -1,18 +1,17 @@
 {
-	"category" : "MessagePack-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "MessagePack-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"chunks",
 		"currentChunk",
 		"chunkPosition",
 		"chunkSize",
-		"lastSize" ],
+		"lastSize"
+	],
 	"name" : "MpMemoryWriteStream",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

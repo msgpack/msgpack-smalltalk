@@ -1,14 +1,15 @@
 {
+	"commentStamp" : "",
+	"super" : "Object",
 	"category" : "MessagePack-Core",
 	"classinstvars" : [
-		"actionMap" ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
+		"actionMap"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
-		"actionMap" ],
+		"actionMap"
+	],
 	"name" : "MpTypeMapper",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

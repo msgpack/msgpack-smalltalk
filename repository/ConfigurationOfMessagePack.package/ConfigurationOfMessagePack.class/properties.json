@@ -1,14 +1,15 @@
 {
-	"category" : "ConfigurationOfMessagePack",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		"LastVersionLoad" ],
 	"commentStamp" : "",
-	"instvars" : [
-		"project" ],
-	"name" : "ConfigurationOfMessagePack",
-	"pools" : [
-		 ],
 	"super" : "Object",
-	"type" : "normal" }
+	"category" : "ConfigurationOfMessagePack",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"LastVersionLoad"
+	],
+	"instvars" : [
+		"project"
+	],
+	"name" : "ConfigurationOfMessagePack",
+	"type" : "normal"
+}
