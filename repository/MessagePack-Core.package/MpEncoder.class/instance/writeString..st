@@ -1,3 +1,3 @@
 writing-string
 writeString: aString
-	self writeStrBytes: aString asByteArray
+	self writeStrBytes: (MpPortableUtil default bytesFromString: aString)

@@ -4,7 +4,7 @@
 		"writeInt64:to:" : "mu 4/29/2011 15:55",
 		"encodeTypeMapperClass" : "mu 5/1/2011 15:28",
 		"stringFromBytes:" : "MasashiUmezawa 11/12/2016 23:27",
-		"bytesFromString:" : "mu 5/2/2012 12:38",
+		"bytesFromString:" : "MasashiUmezawa 10/11/2017 13:45",
 		"timestampFromSeconds:nanos:" : "MasashiUmezawa 8/11/2017 17:24",
 		"writeInt16:to:" : "mu 4/29/2011 15:51",
 		"writeUint32:to:" : "mu 4/29/2011 15:41",
