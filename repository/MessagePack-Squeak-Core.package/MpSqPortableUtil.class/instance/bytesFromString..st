@@ -1,4 +1,4 @@
 actions
 bytesFromString: aString
-	aString isWideString ifTrue: [^(aString convertToEncoding: #utf8) asByteArray].
-	^super bytesFromString: aString
+	(aString isWideString not and: [aString isAsciiString ]) ifTrue: [ ^super bytesFromString: aString].
+	^(aString convertToEncoding: #utf8) asByteArray
