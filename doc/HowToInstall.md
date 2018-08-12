@@ -30,6 +30,15 @@ You can use Metacello:
 ```smalltalk
 Metacello new
   baseline: 'MessagePack';
+  repository: 'github://msgpack/msgpack-smalltalk/repository';
+  load.
+```
+
+If you prefer development branch:
+
+```smalltalk
+Metacello new
+  baseline: 'MessagePack';
   repository: 'github://msgpack/msgpack-smalltalk:develop/repository';
   load.
 ```
