@@ -54,7 +54,7 @@ http://code.google.com/p/messagepack-st/source/browse/#hg%2FVA%20Smalltalk
 
 ## Dolphin Smalltalk:
 
-Hosted on this site.
+Hosted on [Google Code site](<http://messagepack-st.googlecode.com>) (old version).
 
 Zipped: [MessagePack-Dolphin.zip](http://messagepack-st.googlecode.com/hg/Dolphin%20Smalltalk/MessagePack-Dolphin.zip).
 Sources: [MessagePack](http://code.google.com/p/messagepack-st/source/browse/#hg%2FDolphin%20Smalltalk%2FMessagePack).
