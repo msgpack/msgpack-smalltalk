@@ -73,11 +73,10 @@ Installer squeaksource
 
 #### Pharo
 ```Smalltalk
-Gofer it
-    smalltalkhubUser: 'MasashiUmezawa' project: 'MessagePack';
-    configuration;
-    load.
-(Smalltalk at: #ConfigurationOfMessagePack) project development load
+Metacello new
+  repository: 'github://msgpack/msgpack-smalltalk/repository';
+  baseline: 'MessagePack';
+  load.
 ```
 
 You might need ```MpTypeMapper initializeAll ``` on new encoder/decoder-related updates.
