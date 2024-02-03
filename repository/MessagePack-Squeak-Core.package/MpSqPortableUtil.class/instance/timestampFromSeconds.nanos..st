@@ -1,6 +1,6 @@
 actions
 timestampFromSeconds: seconds nanos: nanoSeconds
-	| ts |
-	ts := DateAndTime fromSeconds: seconds + 2177452800 offset: 0.
-	nanoSeconds > 0 ifTrue: [ ts setNanoSeconds: nanoSeconds].
+	| microseconds ts |
+	microseconds := (seconds * 1000000) + (nanoSeconds * 0.001).
+	ts := DateAndTime utcMicroseconds: microseconds offset: 0.
 	^ts
