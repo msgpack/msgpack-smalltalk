@@ -75,8 +75,8 @@ Installer squeaksource
 #### Pharo & Squeak 5+
 ```Smalltalk
 Metacello new
-  repository: 'github://msgpack/msgpack-smalltalk/repository';
   baseline: 'MessagePack';
+  repository: 'github://msgpack/msgpack-smalltalk:develop/repository';
   load.
 ```
 
