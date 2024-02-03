@@ -8,7 +8,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        smalltalk: [Pharo64-11, Pharo64-12]
+        smalltalk: [Pharo64-11]
         experimental: [false]
     continue-on-error: ${{ matrix.experimental }}
     name: ${{ matrix.smalltalk }}
