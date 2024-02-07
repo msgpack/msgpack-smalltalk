@@ -1,0 +1,13 @@
+SmalltalkCISpec {
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #baseline : 'MessagePack',
+      #directory : 'repository',
+      #load : [ 'default' ],
+      #onConflict : #useLoaded,
+      #useLatestMetacello : false,
+      #onWarningLog : true,
+      #platforms : [ #pharo, #squeak ]
+    }
+  ]
+}

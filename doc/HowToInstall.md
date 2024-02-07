@@ -1,6 +1,26 @@
 # How to install
 
-## Squeak:
+## Pharo & Squeak 5
+
+You can use Metacello:
+
+```smalltalk
+Metacello new
+  baseline: 'MessagePack';
+  repository: 'github://msgpack/msgpack-smalltalk/repository';
+  load.
+```
+
+If you prefer development branch:
+
+```smalltalk
+Metacello new
+  baseline: 'MessagePack';
+  repository: 'github://msgpack/msgpack-smalltalk:develop/repository';
+  load.
+```
+
+## Squeak 4
 
 Hosted on SqueakSource Repository.
 (http://www.squeaksource.com/MessagePack.html).
@@ -23,27 +43,7 @@ Installer squeaksource
 (Smalltalk at: #ConfigurationOfMessagePack) perform: #load.
 ```
 
-## Pharo:
-
-You can use Metacello:
-
-```smalltalk
-Metacello new
-  baseline: 'MessagePack';
-  repository: 'github://msgpack/msgpack-smalltalk/repository';
-  load.
-```
-
-If you prefer development branch:
-
-```smalltalk
-Metacello new
-  baseline: 'MessagePack';
-  repository: 'github://msgpack/msgpack-smalltalk:develop/repository';
-  load.
-```
-
-## VisualWorks:
+## VisualWorks
 
 Hosted on [Public Store Repository](http://www.cincomsmalltalk.com/CincomSmalltalkWiki/PostgreSQL+Access+Page).
 http://www.cincomsmalltalk.com/publicRepository/MessagePack-All(Bundle).html
@@ -51,7 +51,7 @@ http://www.cincomsmalltalk.com/publicRepository/MessagePack-All(Bundle).html
 You can also download parcels:
 http://code.google.com/p/messagepack-st/source/browse/#hg%2FVisualWorks
 
-## VA Smalltalk:
+## VA Smalltalk
 
 Hosted on [VAStGoodies.com](http://vastgoodies.com).
 
@@ -61,7 +61,7 @@ Tests: [MessagePackTests](http://vastgoodies.com/maps/MessagePack%20Tests).
 You can also download .dat files:
 http://code.google.com/p/messagepack-st/source/browse/#hg%2FVA%20Smalltalk
 
-## Dolphin Smalltalk:
+## Dolphin Smalltalk
 
 Hosted on [Google Code site](<http://messagepack-st.googlecode.com>) (old version).
 

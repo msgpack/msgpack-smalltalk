@@ -1,5 +1,6 @@
 msgpack-smalltalk
 =================
+[![CI](https://github.com/msgpack/msgpack-smalltalk/actions/workflows/main.yml/badge.svg)](https://github.com/msgpack/msgpack-smalltalk/actions/workflows/main.yml)
 
 MessagePack serialization library for various Smalltalk dialects.
 
@@ -63,7 +64,7 @@ Please read [HowToInstall.md](<https://github.com/msgpack/msgpack-smalltalk/blob
 
 ### Loading the latest development version
 
-#### Squeak
+#### Squeak 4
 ```Smalltalk
 Installer squeaksource
     project: 'MessagePack';
@@ -71,14 +72,17 @@ Installer squeaksource
 (Smalltalk at: #ConfigurationOfMessagePack) project development load
 ```
 
-#### Pharo
+#### Pharo & Squeak 5+
 ```Smalltalk
 Metacello new
-  repository: 'github://msgpack/msgpack-smalltalk/repository';
   baseline: 'MessagePack';
+  repository: 'github://msgpack/msgpack-smalltalk:develop/repository';
   load.
 ```
 
 You might need ```MpTypeMapper initializeAll ``` on new encoder/decoder-related updates.
 
+#### Limitation on Squeak 5+
 
+Starting with Squeak 5 and 6, DateAndTime only supports microsecond precision. Because of this, nanosecond values are not properly decoded as DateAndTime.
+Two unit tests (testPackUnpackTimestamp64, 96) fail on Squeak 5 and 6.

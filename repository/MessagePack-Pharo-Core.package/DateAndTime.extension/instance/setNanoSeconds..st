@@ -1,3 +1,3 @@
-*MessagePack-Squeak-Core
+*MessagePack-Pharo-Core
 setNanoSeconds: nanoSeconds
 	nanos := nanoSeconds

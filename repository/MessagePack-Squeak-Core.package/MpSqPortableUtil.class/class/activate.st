@@ -1,5 +1,5 @@
 class initialization
-initialize
-	"MpSqPortableUtil initialize"
+activate
+	"MpSqPortableUtil activate"
 	super initialize.
 	MpPortableUtil dialectSpecificClass: self
