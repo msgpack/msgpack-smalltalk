@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'MessagePack-Pharo-Core'!
+self packageOrganizer ensurePackage: #'MessagePack-Pharo-Core' withTags: #()!
